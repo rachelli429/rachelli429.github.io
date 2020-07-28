@@ -44,3 +44,22 @@ a {
   transition: 0.3s;
   text-decoration: none;
 }
+
+footer {
+  height: 50px;
+}
+
+footer i {
+  width: 40px;
+  height: 40px;
+}
+
+#social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.container {
+  margin-top: 50px;
+}
