@@ -132,10 +132,11 @@ h3 {
 #saas-designs {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #saas-designs div {
-  width: 50%;
+  width: 47%;
 }
 
 #saas-gradient {
