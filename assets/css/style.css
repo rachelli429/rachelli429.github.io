@@ -61,7 +61,7 @@ footer i {
 }
 
 footer i:hover {
-  color: var(--green-blue);
+  color: var(--pink-purple);
   transition: 0.2s;
 }
 
