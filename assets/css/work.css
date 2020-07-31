@@ -17,6 +17,10 @@ h1 {
   flex-wrap: wrap;
 }
 
+#right-column {
+  margin-top: 50px;
+}
+
 .project-img {
   opacity: 1;
   display: block;
