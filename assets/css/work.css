@@ -55,12 +55,12 @@ h1 {
 
 .project-title {
   color: black;
-  font-size: 32px;
+  font-size: 2vw;
   font-weight: 500;
   margin-bottom: -10px;
 }
 
 .project-description {
   color: #6c6c6c;
-  font-size: 24px;
+  font-size: 1.5vw;
 }
