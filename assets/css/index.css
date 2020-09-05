@@ -8,14 +8,23 @@
   border-bottom: 3px solid var(--green-blue);
 }
 
+.container {
+  width: 70% !important;
+}
+
+.row {
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 #photo img {
   border-radius: 100%;
-  width: 350px;
-  height: 350px;
+  width: 100%;
 }
 
 #description {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #about-right {
@@ -24,7 +33,7 @@
 }
 
 #detailed-description {
-  font-size: 22px;
+  font-size: 16px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
