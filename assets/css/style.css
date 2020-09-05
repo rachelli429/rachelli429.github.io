@@ -1,0 +1,71 @@
+* {
+  font-family: Avenir Next;
+  --green-blue: #64a6bd;
+  --blue: #90a8c3;
+  --purple: #ada7c9;
+  --pink-purple: #d7b9d5;
+  --pink: #f4cae0;
+}
+
+a {
+  font-weight: 500;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  background-color: var(--pink-purple);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#logo img {
+  height: 45px;
+}
+
+#header-right {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#header-right a {
+  color: white;
+  margin-left: 10px;
+  padding: 14px;
+}
+
+#header-right a:hover {
+  background-color: white;
+  color: var(--pink-purple);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+footer {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+footer i {
+  margin-right: 20px;
+  color: black;
+}
+
+footer i:hover {
+  color: var(--pink-purple);
+  transition: 0.2s;
+}
+
+.container {
+  margin-top: 50px;
+}

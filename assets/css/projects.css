@@ -1,0 +1,146 @@
+.container {
+  width: 70% !important;
+}
+.featured-img img {
+  width: 80%;
+}
+
+.featured-img {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500 !important;
+  font-size: 3vw !important;
+}
+
+h3 {
+  font-weight: 400 !important;
+  font-size: 2vw !important;
+  margin-top: -5px !important;
+}
+
+.top-sections {
+  margin-top: 30px;
+}
+
+.top-heading,
+.main-heading {
+  font-weight: 500;
+  font-size: 2vw;
+}
+
+.top-heading {
+  color: var(--pink);
+  margin-bottom: 0;
+}
+
+.top-section a {
+  color: black;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.top-section a:hover {
+  transition: 0.2s;
+  color: var(--pink);
+}
+
+.main-sections {
+  margin-top: 50px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.main-heading {
+  color: var(--pink-purple);
+  width: 25%;
+}
+
+.main-content {
+  width: 65%;
+}
+
+.main-content img {
+  width: 100%;
+}
+
+.main-content a {
+  color: var(--pink-purple);
+}
+
+.main-content a:hover {
+  text-decoration: none;
+  color: var(--pink-purple);
+  transition: 0.2s;
+  border-bottom: 2px solid var(--pink-purple);
+}
+
+.main-subheading {
+  font-weight: 500;
+  color: var(--pink-purple);
+  margin-bottom: 0;
+}
+
+#saas-values img {
+  width: 90%;
+}
+
+#saas-values {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#saas-logos {
+  display: flex;
+  flex-direction: row;
+}
+
+#saas-logos img {
+  width: 50%;
+}
+
+#saas-pink,
+#saas-blue,
+#saas-purple {
+  font-weight: 500;
+}
+
+#saas-pink {
+  color: #ffc0cb;
+}
+
+#saas-blue {
+  color: #87ceeb;
+}
+
+#saas-purple {
+  color: #c0c2e2;
+}
+
+#saas-designs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#saas-designs div {
+  width: 47%;
+}
+
+#saas-gradient {
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(45deg, skyblue, pink);
+}
